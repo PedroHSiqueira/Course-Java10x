@@ -1,6 +1,7 @@
 package intermediario;
 
-public class Pessoa {
+// abstract = Não pode ser instanciada
+public abstract class Pessoa {
     String nome;
     String sobrenome;
     int idade;
