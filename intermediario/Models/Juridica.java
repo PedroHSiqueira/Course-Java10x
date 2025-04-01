@@ -3,6 +3,10 @@ package intermediario.Models;
 public class Juridica extends Pessoa implements Trabalho {
     boolean gestaoPropria;
 
+    public Juridica(){
+        super();
+    }
+
     public Juridica(String nome, String sobrenome, int idade, float salario, boolean gestaoPropria) {
         super(nome, sobrenome, idade, salario);
         this.gestaoPropria = gestaoPropria;
