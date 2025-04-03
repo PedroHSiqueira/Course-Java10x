@@ -1,7 +1,8 @@
 package intermediario.Models;
 
 public class Fisica extends Pessoa implements Trabalho {
-    boolean decimoTerceiro;
+    public boolean decimoTerceiro;
+    final Cidadania cidadania = Cidadania.BRASILEIRA; // Imutável
 
     public Fisica(String nome, String sobrenome, int idade, float salario, boolean decimoTerceiro) {
         super(nome, sobrenome, idade, salario);
@@ -20,5 +21,9 @@ public class Fisica extends Pessoa implements Trabalho {
         } else {
             System.out.println("Não possuo senioridade");
         }
+    }
+
+    final void AprenderIdioma(){
+        System.out.println("Eu estou aprendendo um idioma estrangeiro");
     }
 }
