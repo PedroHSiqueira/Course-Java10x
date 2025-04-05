@@ -1,4 +1,4 @@
-package intermediario.Models;
+package intermediario.Models.enums;
 
 public enum Cidadania {
     BRASILEIRA,

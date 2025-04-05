@@ -1,4 +1,6 @@
-package intermediario.Models;
+package intermediario.Models.Classes;
+
+import intermediario.Models.enums.Senioridade;
 
 // abstract = Não pode ser instanciada
 public abstract class Pessoa {

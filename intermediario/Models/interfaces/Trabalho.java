@@ -1,4 +1,4 @@
-package intermediario.Models;
+package intermediario.Models.interfaces;
 
 public interface Trabalho {
     void tipo();

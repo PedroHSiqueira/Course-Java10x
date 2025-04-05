@@ -1,8 +1,8 @@
 package intermediario;
 
-import intermediario.Models.Fisica;
-import intermediario.Models.Juridica;
-import intermediario.Models.Senioridade;
+import intermediario.Models.Classes.Fisica;
+import intermediario.Models.Classes.Juridica;
+import intermediario.Models.enums.Senioridade;
 
 public class Main {
     public static void main(String[] args) {

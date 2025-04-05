@@ -1,4 +1,7 @@
-package intermediario.Models;
+package intermediario.Models.Classes;
+
+import intermediario.Models.enums.Cidadania;
+import intermediario.Models.interfaces.Trabalho;
 
 public class Juridica extends Pessoa implements Trabalho {
     public boolean gestaoPropria;
