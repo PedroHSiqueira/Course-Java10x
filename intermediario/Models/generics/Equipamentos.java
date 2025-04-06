@@ -1,9 +1,9 @@
 package intermediario.Models.generics;
 
-public class Kunai {
+public class Equipamentos {
     private String nome;
 
-    public Kunai(String nome) {
+    public Equipamentos(String nome) {
         this.nome = nome;
     }
 
@@ -17,6 +17,6 @@ public class Kunai {
 
     @Override
     public String toString() {
-        return "kunai: " + nome;
+        return this.nome;
     }
 }
