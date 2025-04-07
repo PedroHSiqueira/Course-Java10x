@@ -1,7 +1,7 @@
-package intermediario.Models.Classes;
+package intermediario.Classes;
 
-import intermediario.Models.enums.Cidadania;
-import intermediario.Models.interfaces.Trabalho;
+import intermediario.enums.Cidadania;
+import intermediario.interfaces.Trabalho;
 
 public class Fisica extends Pessoa implements Trabalho {
     public boolean decimoTerceiro;

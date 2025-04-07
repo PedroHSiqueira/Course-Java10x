@@ -1,4 +1,4 @@
-package intermediario.Models.generics;
+package intermediario.generics;
 
 import java.util.ArrayList;
 import java.util.List;

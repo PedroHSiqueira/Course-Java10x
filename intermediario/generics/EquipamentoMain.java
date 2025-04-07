@@ -1,4 +1,4 @@
-package intermediario.Models.generics;
+package intermediario.generics;
 
 public class EquipamentoMain {
     public static void main(String[] args) {

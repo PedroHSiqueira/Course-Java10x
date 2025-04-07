@@ -1,4 +1,4 @@
-package intermediario.Models.enums;
+package intermediario.enums;
 
 public enum Senioridade {
     JUNIOR("Nivel mais baixo na hierarquia", 2),
