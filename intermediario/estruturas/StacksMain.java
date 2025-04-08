@@ -27,5 +27,9 @@ public class StacksMain {
 
         //retornar o tamanho da stack
         System.out.println("Tamanho da stack: " + senioridades.size());
+
+        //Pop() em uma stack vazia = Exception
+        Stack<String> teste = new Stack<>();
+        teste.pop();
     }
 }
