@@ -3,7 +3,9 @@ package intermediario.enums;
 public enum Senioridade {
     JUNIOR("Nivel mais baixo na hierarquia", 2),
     PLENO("Nivel médio na hierarquia", 6),
-    SENIOR("Nivel alto na hierarquia", 11);
+    SENIOR("Nivel alto na hierarquia", 11),
+    ESPECIALISTA("Nivel alto na hierarquia", 12);
+
 
     private String descricao;
     private int anosExperiencia;
