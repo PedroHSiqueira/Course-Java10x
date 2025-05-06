@@ -1,6 +1,4 @@
-package avançado.BigO;
-
-import intermediario.enums.Senioridade;
+package avançado.Performance;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
